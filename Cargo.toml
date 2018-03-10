@@ -1,0 +1,6 @@
+[package]
+name = "oxidation"
+version = "0.1.0"
+authors = ["TheJP <jp_55555@hotmail.com>"]
+
+[dependencies]
