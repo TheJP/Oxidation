@@ -1,7 +1,6 @@
 [package]
-name = "oxidation"
+name = "oxidation_os"
 version = "0.1.0"
 authors = ["TheJP <jp_55555@hotmail.com>"]
-build = "build.rs"
 
 [dependencies]
