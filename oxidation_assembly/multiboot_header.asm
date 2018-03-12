@@ -1,5 +1,5 @@
 ; Multiboot Header
-; Original version from Philipp Oppermann (https://os.phil-opp.com/multiboot-kernel/)
+; Original version by Philipp Oppermann (https://os.phil-opp.com/multiboot-kernel/)
 
 section .multiboot_header
 header_start:

@@ -14,6 +14,8 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
+Also if qemu says something like "Could not read from CDROM" this may help: [http://intermezzos.github.io/book/appendix/troubleshooting.html#Could%20not%20read%20from%20CDROM%20(code%200009)](http://intermezzos.github.io/book/appendix/troubleshooting.html#Could%20not%20read%20from%20CDROM%20(code%200009))
+
 ## Build and Run
 
 Build the project: `cargo build`
@@ -31,7 +33,7 @@ Run the project in qemu: `cargo run`
 
 Install Rust: [https://www.rust-lang.org/en-US/install.html](https://www.rust-lang.org/en-US/install.html)
 
-Install the other requirements using: `sudo apt-get install nasm xorriso qemu build-essential`
+Install the other requirements using: `sudo apt-get install nasm xorriso qemu build-essential grub-common`
 
 ## Credits and Links
 
